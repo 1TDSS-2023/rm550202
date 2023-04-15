@@ -16,8 +16,8 @@
       display: flex;
       justify-content: space-around;
       flex-wrap: wrap;
-      width: 60%;
-      height: 100%;
+      width: 60vw;
+      height: 40vw;
   }
   
   .cabecalho img{
@@ -52,7 +52,7 @@
   .conteudo {
       display: flex;
       flex-wrap: wrap;
-      max-width: 800px;
+      max-width: 80vw;
       margin:0 auto;
   }
   
@@ -62,7 +62,7 @@
       flex-basis: 300px;
   }
   
-  
+
   .tit-secao{
       text-align: center;
       margin: 2% 0;
