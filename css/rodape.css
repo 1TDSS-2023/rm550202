@@ -1,0 +1,37 @@
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    min-height: 20vh;
+    margin: 15vh 0 0 0;
+
+    background-color: #24df72;
+    color: #000;
+}
+.rodape h2 {
+    flex-grow: 1;
+    font-family: 'Montserrat-400', sans-serif;
+    margin-left: 5%;
+}
+.rodape nav{
+    display: flex;
+    flex-grow: 6;
+    
+    width: 80vw;
+    height: 10vh;
+
+    align-items: center;
+}
+.rodape a{
+    display: block;
+    flex-grow: 1;
+}
+.rodape img {
+    display: block;
+
+    width: 6%;
+    max-width: 6%;
+
+    margin: 0 auto;
+}

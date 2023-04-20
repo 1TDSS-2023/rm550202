@@ -1,0 +1,21 @@
+.conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+.conteudo>div{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 300px;
+}
+.conteudo img{
+    max-width: 100%;
+    display: inline-block;
+    margin: 5%;
+}
+.conteudo>div p{
+    font-family: 'Montserrat-100', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
