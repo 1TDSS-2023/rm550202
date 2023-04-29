@@ -24,3 +24,21 @@ html {
     font-size: 2rem;
     font-family: 'Montserrat-400', sans-serif;
 }
+
+table{
+    border-collapse: collapse;
+    margin: 55px auto;
+}
+th, td{
+    border: solid 1px #dddddd;
+    padding: 8px;
+}
+
+td[colspan]{
+    text-align: center;
+}
+/* odd ímpar , even par */
+
+tr:hover{
+    background-color: #24df72;
+}
