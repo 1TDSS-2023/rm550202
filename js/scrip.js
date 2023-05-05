@@ -67,14 +67,37 @@
 //     console.log("Fruta da vez: " + fruta)
 // })
 
-let nr1 = [1, 2, 3, 4, 5, 6]
-let nr2 = [7, 8, 9, 10, 11, 12]
-let juntando = [nr1 + "," + nr2]
-console.log(juntando)
-//concatenando arrays em um novo array.
-let nr3 = [...nr1, ...nr2]
-console.log("Novo array: " +nr3)
-//imprimindo o novo array com forEach
-nr3.forEach( (nr) => {
-    console.log("Itens do novo array: " + nr)
+// let nr1 = [1, 2, 3, 4, 5, 6]
+// let nr2 = [7, 8, 9, 10, 11, 12]
+// let juntando = [nr1 + "," + nr2]
+// console.log(juntando)
+// //concatenando arrays em um novo array.
+// let nr3 = [...nr1, ...nr2]
+// console.log("Novo array: " +nr3)
+// //imprimindo o novo array com forEach
+// nr3.forEach( (nr) => {
+//     console.log("Itens do novo array: " + nr)
+// })
+
+
+const imgElements = [...document.getElementsByTagName("img")];
+//for (let index = 0; index < imgElements.length; index++) {
+//    console.log("Link: " + imgElements[index].src + " | Nomde(alt): " + imgElements[index].alt);
+//}
+//const imgElementsArrays = [...imgElements];
+
+imgElements.forEach((img) => {
+    img.setAttribute("width", "10%");
+})
+console.log(imgElements);
+
+const pElements =document.querySelectorAll(".teste");
+console.log(pElements);
+
+imgElements.forEach((el) => {
+    if(el.tagName.toLowerCase() == "img") {
+        console.log(el);
+    } else if(el.tagName.toLowerCase() == "p") {
+        console.log(el);
+    }
 })
