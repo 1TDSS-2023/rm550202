@@ -12,7 +12,6 @@ function insereNumeroNoVisor(botao, input) {
     } else {
         input.value += botao.value;
     }
-
 }
 
 
